@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tú cv</title>
+</head>
+<body>
+<div class="all flex">
+    <div class="sidebar">
+        <div class="avatar">
+            <img src="FKWwm5oWtxA5SV08b3pL_5c3cba12938a5_cvtpl.jpg" height="215" width="215" alt="Phí Minh Tú"/>
+            <h1>Phí Minh Tú</h1>
+            <h4>Web Design</h4>
+        </div><!-- .avatar -->
+
+        <div class="module">
+            <h3 class="module__title">
+                <span>Giới thiệu bản thân</span>
+            </h3>
+            <div class="module__content">
+                <p>Tôi tên là Phí Minh Tú, năm nay 28 tuổi, Quê hương ở Quảng Ninh, Hiện tại sống và làm việc tại Hà Nội </p>
+                <p>Mong muốn được vào công ty để tích lũy kinh nghiệm và phát triển bản thân mình hơn</p>
+            </div>
+        </div>
+
+        <div class="module">
+            <h3 class="module__title">
+                <span>liên hệ</span>
+            </h3>
+            <div class="module__content">
+                <ul>
+                    <li class="flex"><div>&#9992;	Ngõ 28 số nhà 12, Mễ Trì Thượng - HN</div></li>
+                    <li class="flex"><div>&#9993;	phiminhtu287@gmail.com</div></li>
+                    <li class="flex"><div>&#9742;	0899282228</div></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="module module--progress">
+            <h3 class="module__title">
+                <span>Kỹ năng</span>
+            </h3>
+            <div class="module__content">
+                <ul>
+                    <li class="flex">
+                        <div class="flex--1">
+                            <span>HTML / CSS / JS</span>
+                            <span class="progress-bar"><span style="width:90%"></span></span>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <div class="flex--1">
+                            <span>Tiếng Nhật</span>
+                            <span class="progress-bar"><span style="width:80%"></span></span>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <div class="flex--1">
+                            <span>Làm việc nhóm</span>
+                            <span class="progress-bar"><span style="width:85%"></span></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2 class="section__title">
+                <span>Điểm Mạnh</span>
+            </h2>
+            <div class="exp">
+                <span>Nhanh nhẹn, học hỏi nhanh, chịu được áp lực công việc</span>
+            </div>
+
+            <h2 class="section__title">
+                <span>Trình độ học vấn</span>
+            </h2>
+            <div class="exp">
+                <span>Cao đẳng chính quy</span>
+            </div>
+
+        </div>
+        <div class="section">
+            <h2 class="section__title">
+                <span>Kinh nghiệm nghề nghiệp</span>
+            </h2>
+            <div class="section__content">
+                <div class="module">
+                    <h3 class="module__title">Nhân viên Marketting công ty Nhựa Thanh Xuân</h3>
+                    <div class="module__meta">
+                        <span>2013-1014</span>
+                    </div>
+                        <p>Chăm sóc khách hàng, giao bán những sản phẩm mới của công ty</p>
+                </div><!-- End .module #4 -->
+
+                <div class="module">
+                    <h3 class="module__title">Thực tập sinh tại Nhật bản</h3>
+                    <div class="module__meta">
+                        <span>2015-1018</span>
+                    </div>
+                        <p>Máy trưởng dây chuyền máy móc tạo ra sản phẩm. Kiểm tra và sửa các lỗi sản phẩm được tạo ra</p>
+                </div><!-- End .module #5 -->
+
+                <div class="module">
+                    <h3 class="module__title">Nhân viên hỗ trợ quản lý khách sạn Nhật Bản AZUMAYA</h3>
+                    <div class="module__meta">
+                        <span>2019-2020</span>
+                    </div>
+                        <p>Hỗ trợ khách hàng check in, check out, xử lý các tình huống xấu xảy ra</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<style>
+    body {
+        line-height: 1.5;
+        font-size: 16px;
+        font-family: Arial;
+    }
+    img {
+        vertical-align: middle;
+        max-width: 100%;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex .flex--1 {
+        flex: 1;
+    }
+    .all {
+        max-width: 1170px;
+        width: 100%;
+        margin: auto;
+    }
+    .sidebar {
+        width: 35%;
+        background: #37474f;
+        color: #fff;
+    }
+    .content {
+        width: 65%;
+        padding: 70px;
+    }
+    /* Avatar */
+    .avatar {
+        text-align: center;
+        padding: 60px 0;
+        background: dodgerblue;
+    }
+    .avatar img {
+        border-radius: 50%;
+    }
+    .avatar h1 {
+        font-size: 32px;
+        line-height: 1;
+    }
+    .avatar h4 {
+        font-size: 22px;
+    }
+
+    .progress-bar,
+    .progress-bar span {
+        height: 6px;
+        background: #fff;
+        border-radius: 6px;
+        display: block;
+    }
+    .progress-bar span {
+        background: #263238;
+    }
+    .module--progress li {
+        margin-bottom: 20px;
+    }
+
+    .sidebar .module {
+        padding: 0 45px;
+        margin-top: 50px;
+    }
+    .module__title {
+        font-size: 20px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        color: dodgerblue;
+
+    }
+    .module__meta {
+        font-size: 14px;
+        color: #90a4ae;
+        margin-bottom: 20px;
+    }
+    .section__title {
+        font-size: 28px;
+        text-transform: uppercase;
+        margin: 0 0 10px;
+    }
+    .section__content {
+        padding-left: 30px;
+    }
+    .content .module__title {
+        margin-bottom: 0;
+    }
+    .exp{
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding-left: 30px;
+    }
+
+</style>
